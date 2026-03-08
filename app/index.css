@@ -1,0 +1,21 @@
+:root {
+  --font-cursive: "DynaPuff", system-ui;
+}
+
+html {
+  background-color: midnightblue;
+  color: white;
+  font-family: var(--font-cursive);
+}
+
+body {
+  margin: 0;
+}
+
+.rootlayout {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  box-sizing: border-box;
+}

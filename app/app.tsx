@@ -1,5 +1,6 @@
 import { lazy } from "solid-js"
 import { Router } from "@solidjs/router"
+import RootLayout from "@/layouts/root"
 
 const pages = [
   {
@@ -13,7 +14,7 @@ const pages = [
 ]
 
 function App() {
-  return <Router>{pages}</Router>
+  return <Router root={RootLayout}>{pages}</Router>
 }
 
 export default App
