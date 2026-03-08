@@ -12,7 +12,7 @@ export default function Index() {
           navigate("/404")
         }}
       >
-        click here, when ready
+        click here, when ready 😈
       </button>
     </div>
   )
