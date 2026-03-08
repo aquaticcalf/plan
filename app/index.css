@@ -1,11 +1,13 @@
 :root {
-  --font-cursive: "DynaPuff", system-ui;
+  --background: midnightblue;
+  --foreground: white;
+  --font-concert: "Concert One", system-ui;
 }
 
 html {
-  background-color: midnightblue;
-  color: white;
-  font-family: var(--font-cursive);
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-concert);
 }
 
 body {

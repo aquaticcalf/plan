@@ -8,7 +8,7 @@ export default defineConfig({
     solid(),
     Unfonts({
       google: {
-        families: ["DynaPuff"],
+        families: ["Concert One"],
       },
     }),
   ],
